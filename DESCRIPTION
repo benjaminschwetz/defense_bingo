@@ -7,4 +7,5 @@ Imports:
   future,
   glue,
   rlist,
-  knitr
+  knitr,
+  dplyr

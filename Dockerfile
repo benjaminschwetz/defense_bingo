@@ -1,9 +1,11 @@
   FROM jcoenep/ambiorix
 RUN echo "options(repos = c(CRAN = 'https://packagemanager.rstudio.com/all/latest'))" >> /usr/local/lib/R/etc/Rprofile.site
+RUN apt-get install -y libcurl4-openssl-dev libxml2-dev
 RUN R -e 'install.packages("remotes")'
 RUN R -e "install.packages('ambiorix')"
 RUN R -e "install.packages('htmltools')"
 RUN R -e "install.packages('purrr')"
+RUN R -e "install.packages('dplyr')"
 RUN R -e "install.packages('future')"
 RUN R -e "install.packages('glue')"
 RUN R -e "install.packages('rlist')"
