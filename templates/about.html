@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  [! header.html !]
+  <script>
+    var wss = new Ambiorix();
+    wss.receive("hello", function(msg){
+      alert(msg);
+    });
+    wss.start();
+  </script>
+  <title>Ambiorix</title>
+</head>
+<body>
+  <h1 class="brand">[% title %]</h1>
+  Current Game: [% game %] </br>
+  Setup Mode: [% mode %] </br>
+  <form action="/change", method="get">
+    <input type="submit" value="Change Mode" />
+</form>
+</body>
+</html>

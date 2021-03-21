@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  [! header.html !]
+  <script>
+    var wss = new Ambiorix();
+    wss.receive("hello", function(msg){
+      alert(msg);
+    });
+    wss.start();
+  </script>
+  <title>Ambiorix</title>
+</head>
+<body>
+  <h1 class="brand">[% title %]</h1>
+  <h2 class="brand">[% subtitle %]</h2>
+  <form action="join" method="get">
+    <input type="text" id="player" name="player">
+    <input type="submit" name="submit", value = "Join!">
+  </form>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  [! header.html !]
+  <script>
+    var wss = new Ambiorix();
+    wss.receive("hello", function(msg){
+      alert(msg);
+    });
+    wss.start();
+  </script>
+  <title>Ambiorix</title>
+</head>
+<body>
+  <h1 class="brand">[% player %] won the BINGO</h1>
+  <form action="/reset">
+    <input type="hidden" id="game" name="game" value=[% game %]>
+    <input type="submit" value="New Game" />
+</form>
+
+</body>
+</html>

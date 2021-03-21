@@ -1,0 +1,10 @@
+Title: Defense Bingo
+Version: 0.0.1.9000
+Imports:
+  ambiorix,
+  htmltools,
+  purrr,
+  future,
+  glue,
+  rlist,
+  knitr
