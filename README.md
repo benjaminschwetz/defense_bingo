@@ -12,7 +12,7 @@ Defense Bingo is a simple web app packaged with Docker. All you need to supply i
 
 ### Add your words
 
-Edit the `top_words`file and fill it with the words you want to draw from. Needs to be at least 25 to not break the code. I found that 90 (same amount as numbers in normal bingo) works well. One line should be one word.
+Edit the `top_terms` file and fill it with the words you want to draw from. Needs to be at least 25 to not break the code. I found that 90 (same amount as numbers in normal bingo) works well. One line should be one word.
 
 #### Poor man's version
 
