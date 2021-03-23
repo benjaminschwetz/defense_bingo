@@ -8,9 +8,9 @@ Defense Bingo is a simple web app packaged with Docker. All you need to supply i
 
 ## How to use it?
 
-### Fork/Clone
+### 1 Fork/Clone
 
-### Add your words
+### 2 Add your words
 
 Edit the `top_terms` file and fill it with the words you want to draw from. Needs to be at least 25 to not break the code. I found that 90 (same amount as numbers in normal bingo) works well. One line should be one word.
 
@@ -26,8 +26,8 @@ run the following R code.
 code coming
 ```
 
-### Host somewhere
+### 3 Host somewhere
 
-### Share 
+### 4 Share 
 
-### Activate
+### 5 Activate
